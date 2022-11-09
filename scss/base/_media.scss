@@ -1,0 +1,120 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 520px;
+    }
+    .header {
+        &__logo {
+            width: 170px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .btn {
+        width: 130px;
+        font-size: 11px;
+        &_main {
+            width: 200px;
+            font-size: 13px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+        &__icons {
+            width: 350px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+    .advantages {
+        padding: 50px 0 47px 0;
+        &__subtitle {
+            font-size: 15px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        width: 300px;
+    }
+    .header {
+        &__logo {
+            width: 140px;
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            font-size: 14px;
+        }
+    }
+    .btn {
+        width: 115px;
+        font-size: 9px;
+        &_main {
+            width: 200px;
+            font-size: 13px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 25px;
+            line-height: 25px;
+        }
+        &__subheader {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &__icons {
+            width: 240px;
+        }
+        &__icon {
+            font-size: 9px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+    }
+    .title {
+        font-size: 25px;
+    }
+    .advantages {
+        min-height: 190px;
+        padding: 50px 0 47px 0;
+        &__wrapper {
+            margin-top: 25px;
+        }
+        &__subtitle {
+            font-size: 12px;
+            text-align: center;
+        }
+        &__descr {
+            display: none;
+        }
+    }
+}
