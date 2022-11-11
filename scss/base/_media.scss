@@ -13,6 +13,18 @@
             font-size: 18px;
         }
     }
+    .carousel {
+        padding: 75px 0;
+        &__inner {
+            width: 550px;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            bottom: -45px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .container {
@@ -78,6 +90,19 @@
     .btn_submit {
         width: 100%;
         font-size: 16px;
+    }
+    .carousel {
+        height: 352px;
+        padding: 50px 0;
+        &__inner {
+            width: 425px;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            bottom: 20px;
+        }
     }
 }
 @media (max-width: 575px) {
@@ -155,6 +180,19 @@
         &_submit {
             width: 100%;
             font-size: 15px;
+        }
+    }
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            height: 250px;
+            width: 305px;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            bottom: -20px;
         }
     }
 }

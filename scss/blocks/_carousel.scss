@@ -1,0 +1,17 @@
+.carousel {
+    padding: 150px 0;
+    &__inner {
+        width: 750px;
+        height: 422px;
+        margin: 0 auto;
+    }
+    .slick-prev {
+        left: -67px;
+    }
+    .slick-next {
+        right: -67px;
+    }
+    .slick-dots {
+        bottom: -150px;
+    }
+}
