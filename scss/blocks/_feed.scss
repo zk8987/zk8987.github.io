@@ -1,0 +1,36 @@
+.feed {
+    min-height: 968px;
+    padding-bottom: 48px;
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+    }
+    &__wrapper {
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+        margin-right: 60px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0d0d0d;
+    }
+    &__counter {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0d0d0d;
+        margin-top: 10px;
+    }
+    br {
+        margin-bottom: 25px;
+    }
+}
