@@ -253,4 +253,20 @@
             font-size: 16px;
         }
     }
+    .modal {
+        width: 80%;
+        padding: 40px 10px;
+        .feed-form {
+            width: 100%;
+            &_mt25 {
+                margin-top: 15px;
+            }
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
 }
